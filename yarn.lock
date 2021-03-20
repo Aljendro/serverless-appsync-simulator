@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@aljendro/amplify-nodejs-function-runtime-provider@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@aljendro/amplify-nodejs-function-runtime-provider/-/amplify-nodejs-function-runtime-provider-1.6.0.tgz#9ebcc6eee674262311b2f95e8f3e8c92cf2bb20c"
+  integrity sha512-jiaRf0UZ/LDBDrgBod3l4f0KesY/CssE0zvuOK5cr9v0GW6FR8nANy4nxncevFFLKZAf1UyGChSJxL44JlMLzg==
+  dependencies:
+    amplify-function-plugin-interface "1.7.2"
+    archiver "^3.1.1"
+    execa "^4.1.0"
+    fs-extra "^8.1.0"
+    glob "^7.1.6"
+
 "@babel/cli@^7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.12.1.tgz#e08a0b1cb6fcd4b9eb6a606ba5602c5c0fe24a0c"
@@ -1694,22 +1705,10 @@ amplify-appsync-simulator@^1.23.9:
     uuid "^3.4.0"
     ws "^7.2.3"
 
-amplify-function-plugin-interface@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/amplify-function-plugin-interface/-/amplify-function-plugin-interface-1.4.1.tgz#a76b6e7894605553a20d908a80f88e5d8ec40db0"
-  integrity sha512-0ddIR9B1ERKIdQB0lF84l9m/ZjGoMFKRH9F5v7rOgopXoRmmbgs/U+L/ygji98kdv/A0adBFJhOF3FHnQNg3CQ==
-
-amplify-nodejs-function-runtime-provider@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/amplify-nodejs-function-runtime-provider/-/amplify-nodejs-function-runtime-provider-1.1.6.tgz#d973abb5f6bee3f5518a8f65d17135299aaf49b8"
-  integrity sha512-5N/9BDaCcOQQtATB86Fqg6h+eSITmFrDXehiBC0OSW6TWIpNW61UfJcTVm0/pIkSV762u0jzEgnZ9bsq3kA3BQ==
-  dependencies:
-    amplify-function-plugin-interface "1.4.1"
-    archiver "^3.1.1"
-    execa "^4.0.0"
-    exit "^0.1.2"
-    fs-extra "^8.1.0"
-    glob "^7.1.6"
+amplify-function-plugin-interface@1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/amplify-function-plugin-interface/-/amplify-function-plugin-interface-1.7.2.tgz#afe236f400f4d04b137948c036fa403765b94b99"
+  integrity sha512-YdDfHWfuP37r7jxHVeId2y4dQHRGlk0AHbS8V1hV/5VQ3PzkNNUhdCMOrD00pZXkAx8iRrdDWKLL7nBjl1APAQ==
 
 amplify-velocity-template@1.3.4:
   version "1.3.4"
@@ -3622,7 +3621,7 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^4.0.0:
+execa@^4.0.0, execa@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
   integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==

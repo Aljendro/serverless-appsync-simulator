@@ -1,5 +1,5 @@
 import { AmplifyAppSyncSimulatorAuthenticationType as AuthTypes } from 'amplify-appsync-simulator';
-import { invoke } from 'amplify-nodejs-function-runtime-provider/lib/utils/invoke';
+import { invoke } from '@aljendro/amplify-nodejs-function-runtime-provider/lib/utils/invoke';
 import axios from 'axios';
 import fs from 'fs';
 import { forEach, isNil, first } from 'lodash';
