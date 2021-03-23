@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aljendro/amplify-nodejs-function-runtime-provider@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@aljendro/amplify-nodejs-function-runtime-provider/-/amplify-nodejs-function-runtime-provider-1.6.0.tgz#9ebcc6eee674262311b2f95e8f3e8c92cf2bb20c"
-  integrity sha512-jiaRf0UZ/LDBDrgBod3l4f0KesY/CssE0zvuOK5cr9v0GW6FR8nANy4nxncevFFLKZAf1UyGChSJxL44JlMLzg==
+"@aljendro/amplify-nodejs-function-runtime-provider@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@aljendro/amplify-nodejs-function-runtime-provider/-/amplify-nodejs-function-runtime-provider-1.6.1.tgz#5ba93e6216004f1badbed8744e06b7771bbe6257"
+  integrity sha512-wWRfMhTKzjq82FmybP3Fnr2XVF31Mk/KQRcxAbm6oXyalp8XGAtCxr4SMNWoXabDgEbu0YF02YyNgcA/yISTgA==
   dependencies:
     amplify-function-plugin-interface "1.7.2"
     archiver "^3.1.1"
